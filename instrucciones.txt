@@ -1,0 +1,8 @@
+1. Montar el contendor usando el comando desde el directorio raiz del proyecto:
+    docker compose -f docker-compose.yml up
+
+2. Usar el comando para ejecutar el .sh que inica la api:
+    sh bin/start-api-serve.sh
+
+3. User el comando para ejecutar el .sh que inica el front:
+    sh bin/start-front-serve.sh
